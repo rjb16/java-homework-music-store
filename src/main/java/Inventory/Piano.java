@@ -12,7 +12,7 @@ public class Piano extends Instrument implements IPlay {
     }
 
     public String play() {
-        return "Do do de de ting";
+        return "DUN DUN DUUUUUN";
     }
 
     public int getNumberOfKeys() {

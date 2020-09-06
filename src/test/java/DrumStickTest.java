@@ -1,6 +1,7 @@
-import inventory.Drum;
-import inventory.DrumStick;
-import inventory.MusicSheet;
+
+import Inventory.Drum;
+import Inventory.DrumStick;
+import Inventory.MusicSheet;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,7 +13,7 @@ public class DrumStickTest {
 
     @Before
     public void before() {
-        drumStick = new DrumStick("Handcrafted sticks constructed from tiger wood", 1.50, 3.50);
+        drumStick = new DrumStick("Childrens learning sticks", 1.50, 3.50);
     }
 
     @Test
@@ -22,6 +23,6 @@ public class DrumStickTest {
 
     @Test
     public void canGetDescription() {
-        assertEquals("Handcrafted sticks constructed from tiger wood", drumStick.getDescription());
+        assertEquals("Childrens learning sticks", drumStick.getDescription());
     }
 }

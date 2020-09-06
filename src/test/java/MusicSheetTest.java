@@ -1,4 +1,4 @@
-import inventory.MusicSheet;
+import Inventory.MusicSheet;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ public class MusicSheetTest {
 
     @Before
     public void before() {
-        musicSheet = new MusicSheet("Made from the bark of some of the oldest trees in the world", 2.50, 5.50);
+        musicSheet = new MusicSheet("Fur Elise", 2.50, 5.50);
     }
 
     @Test
@@ -20,6 +20,6 @@ public class MusicSheetTest {
 
     @Test
     public void canGetDescription() {
-        assertEquals("Made from the bark of some of the oldest trees in the world", musicSheet.getDescription());
+        assertEquals("Fur Elise", musicSheet.getDescription());
     }
 }

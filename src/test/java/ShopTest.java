@@ -1,10 +1,10 @@
-import inventory.Drum;
-import inventory.DrumStick;
-import inventory.Guitar;
-import inventory.InstrumentType;
+import Inventory.Drum;
+import Inventory.DrumStick;
+import Inventory.Guitar;
+import Inventory.InstrumentType;
 import org.junit.Before;
 import org.junit.Test;
-import shop.Shop;
+import Shop.Shop;
 
 import static org.junit.Assert.assertEquals;
 

@@ -12,7 +12,7 @@ public class Drum extends Instrument implements IPlay {
     }
 
     public String play() {
-        return "Ba dum tsssss";
+        return "WHAM";
     }
 
     public int getDiameter() {
